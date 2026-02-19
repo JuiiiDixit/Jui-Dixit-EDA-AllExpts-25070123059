@@ -1,62 +1,122 @@
-Experiment-7
-Title: Study of For Loop and While Loop in Python
-Aim:
+Experiment – 7
+Title 1: Study of For Loop and While Loop in Python
+Aim
+
 To study and implement the use of for loop and while loop in Python programming.
-Theory:
-Looping is a control structure that allows a set of statements to be executed repeatedly based on a condition or over a sequence. Python provides two main types of loops: the for loop and the while loop.
-1.	For Loop
-The for loop is used to iterate over a sequence such as a list, tuple, string, or range of numbers. It is generally used when the number of iterations is known in advance.
-Syntax:
-for variable in sequence:
-    statements
-The loop variable takes each value from the sequence one by one, and the statements inside the loop are executed for each value.
-Program:
+
+Theory
+
+Looping is a control structure that allows a set of statements to be executed repeatedly based on a condition or over a sequence. Python provides two main types of loops:
+
+for loop
+
+while loop
+
+ Algorithm 1: Using For Loop to Print Numbers from 1 to 5
+
+Start
+
+Use range(1,6) to generate numbers from 1 to 5
+
+Assign each value to variable i one by one
+
+Print the value of i
+
+Stop
+
+Program
 for i in range(1, 6):
     print(i)
-Output:
+
+Output
 1
 2
 3
 4
 5
-2.	While Loop
-The while loop is used to execute a block of statements repeatedly as long as a specified condition remains true. It is generally used when the number of iterations is not known beforehand.
-Syntax:
-while condition:
-    statements
-The condition is checked before every iteration. If the condition becomes false, the loop terminates.
-Program:
-i = 1
 
+ Algorithm 2: Using While Loop to Print Numbers from 1 to 5
+
+Start
+
+Initialize variable i = 1
+
+Check condition i <= 5
+
+If true, print i
+
+Increment i by 1
+
+Repeat steps 3–5 until condition becomes false
+
+Stop
+
+Program
+i = 1
 while i <= 5:
     print(i)
     i += 1
-Output:
+
+Output
 1
 2
 3
 4
 5
+
 Difference Between For Loop and While Loop
-	For loop is used when the number of iterations is known.
-	While loop is used when the number of iterations depends on a condition.
-	For loop automatically handles iteration over a sequence.
-	While loop requires manual updating of the loop variable.
 
-Title: Study of while loop with break, continue, and pass statements in Python
-Aim:
-To study and implement the use of break, continue, and pass statements in a while loop in Python.
-Theory:
-The while loop executes a block of statements repeatedly as long as the given condition remains true. The loop control statements break, continue, and pass can alter its normal execution.
-1.	break statement
-The break statement terminates the loop immediately when executed.
-2.	continue statement
-The continue statement skips the remaining statements of the current iteration and proceeds to the next iteration.
-3.	pass statement
-The pass statement is used as a placeholder and does not affect the flow of execution.
-Program:
+for loop is used when number of iterations is known.
+
+while loop is used when number of iterations depends on a condition.
+
+for loop automatically manages iteration.
+
+while loop requires manual updating of variable.
+
+Title 2: Study of While Loop with Break, Continue and Pass Statements
+Aim
+
+To study and implement break, continue, and pass statements in a while loop.
+
+ Algorithm 3: Using Break in While Loop
+
+Start
+
+Initialize i = 1
+
+Repeat while i <= 10
+
+If i == 8, terminate loop using break
+
+Otherwise print i
+
+Increment i
+
+Stop
+
+ Algorithm 4: Using Continue and Pass in While Loop
+
+Start
+
+Initialize i = 1
+
+Repeat while i <= 10
+
+If i == 3, execute pass
+
+If i == 5, increment i and skip iteration using continue
+
+If i == 8, terminate loop using break
+
+Print i
+
+Increment i
+
+Stop
+
+Program
 i = 1
-
 while i <= 10:
 
     if i == 3:
@@ -71,7 +131,8 @@ while i <= 10:
 
     print(i)
     i += 1
-Output:
+
+Output
 1
 2
 3
@@ -79,18 +140,30 @@ Output:
 6
 7
 
-Title: Study of for loop with break, continue, and pass statements in Python
-Aim:
-To study and implement the use of break, continue, and pass statements in a for loop in Python.
-Theory:
-The for loop is used to iterate over a sequence such as a list, string, or range of numbers. Python provides control statements that modify the normal execution of loops.
-1.	break statement
-The break statement is used to terminate the loop immediately when a specified condition is satisfied. Control transfers to the first statement outside the loop.
-2.	continue statement
-The continue statement skips the remaining statements in the current iteration and moves to the next iteration of the loop.
-3.	pass statement
-The pass statement is a null statement. It performs no action and is used as a placeholder where a statement is syntactically required.
-Program:
+Title 3: Study of For Loop with Break, Continue and Pass Statements
+Aim
+
+To study and implement break, continue, and pass statements in a for loop.
+
+ Algorithm 5: Using Break, Continue and Pass in For Loop
+
+Start
+
+Use range(1,11) to generate numbers 1 to 10
+
+For each value of i
+
+If i == 3, execute pass
+
+If i == 5, skip iteration using continue
+
+If i == 8, terminate loop using break
+
+Print i
+
+Stop
+
+Program
 for i in range(1, 11):
 
     if i == 3:
@@ -103,7 +176,8 @@ for i in range(1, 11):
         break
 
     print(i)
-Output:
+
+Output
 1
 2
 3
@@ -111,6 +185,7 @@ Output:
 6
 7
 
-Conclusion :
+Conclusion
+
 Thus, the for loop and while loop were studied and implemented successfully using Python programs.
-We have also studied Break, Continue and Pass function in for and while loop in Python.
+The working of break, continue, and pass statements in both loops was also studied and understood.
