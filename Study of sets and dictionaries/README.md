@@ -1,55 +1,67 @@
-Experiment – 1
-Introduction to Python Programming and Installation of Jupyter Notebook Using Anaconda
+Experiment – 5
+Implementation of Set and Dictionary in Python
 Aim
 
-To study the fundamentals of Python programming, understand the Python execution environment, install Python and Jupyter Notebook using Anaconda, and explore various Python IDEs including Google Colab.
+To study and implement set and dictionary data structures in Python and perform various operations.
 
-Objectives
-
-To understand the features and applications of Python
-
-To install Python and Jupyter Notebook using Anaconda
-
-To explore different Python IDEs
-
-To execute basic Python programs using Jupyter Notebook and Google Colab
-
+Part A: Sets
 Theory
 
-Python is a high-level, interpreted, and object-oriented programming language widely used in areas such as data analysis, machine learning, automation, web development, and scientific computing.
+A set is an unordered collection of unique elements defined using { } or the set() constructor.
 
-Anaconda
+Characteristics
 
-Anaconda is a free and open-source Python distribution designed for data science and machine learning.
+Unordered
 
-Advantages:
+No duplicate elements
 
-Pre-installed Python and essential libraries
+Mutable
 
-Includes Jupyter Notebook and Spyder
+Does not support indexing
 
-Simplified package and environment management
+Set Operations
 
-Reduces dependency conflicts
+Union
 
-Installation Steps
+Intersection
 
-Visit the official Anaconda website
+Difference
 
-Download Anaconda Individual Edition
+Symmetric Difference
 
-Choose the Python 3.x version suitable for your system
+Applications
 
-Follow installation instructions
+Removing duplicates
 
-Python IDEs
-IDE	Description
-IDLE	Basic Python IDE
-Spyder	Scientific IDE included in Anaconda
-PyCharm	Professional IDE
-VS Code	Lightweight and versatile editor
-Jupyter Notebook	Interactive computing environment
-Google Colab	Cloud-based Python platform
+Membership testing
+
+Mathematical operations
+
+Part B: Dictionary
+Theory
+
+A dictionary is an unordered collection of key-value pairs where each key is unique.
+
+Characteristics
+
+Key-value structure
+
+Mutable
+
+Unique keys
+
+Values can be modified
+
+Applications
+
+Student records
+
+Phone directories
+
+Database storage
+
+Configuration settings
+
 Conclusion
 
-Python provides a powerful and flexible programming environment. Tools such as Jupyter Notebook and Google Colab enhance interactive learning and data exploration.
+Sets are efficient for handling unique elements and mathematical operations. Dictionaries enable efficient storage and retrieval of data using keys.
