@@ -4,15 +4,15 @@ Aim
 To create a dataset in Python and perform basic data inspection operations such as size, shape, info, and describe using Pandas.
  
 Objectives
-	To create a dataset using a dictionary
-	To convert it into a DataFrame
-	To upload/read a dataset from a CSV file
-	To perform basic data analysis using:
-o	shape
-o	size
-o	info()
-o	describe()
-o	head() and tail()
+To create a dataset using a dictionary
+To convert it into a DataFrame
+To upload/read a dataset from a CSV file
+To perform basic data analysis using:
+shape
+size
+info()
+describe()
+head() and tail()
  
 Software Requirement
 	Python 3.x
