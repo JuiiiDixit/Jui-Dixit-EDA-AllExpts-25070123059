@@ -1,14 +1,14 @@
-#Experiment – 11  
-#Title: Categorical Data Analysis using Python
+# Experiment – 11  
+# Title: Categorical Data Analysis using Python
 
-##Aim  
+## Aim  
 To perform categorical data analysis using Python by identifying categories, calculating frequency distributions, performing cross-tabulation, and visualizing categorical variables.
 
 ---------------------------------------------------------------------
 
-##Theory
+## Theory
 
-###1. Categorical Data
+### 1. Categorical Data
 
 Categorical data refers to data that represents groups, labels, or categories instead of numerical values. It describes qualities or characteristics and cannot be measured numerically.
 
@@ -22,7 +22,7 @@ Categorical data is widely used in business analytics, marketing analysis, socia
 
 ---------------------------------------------------------------------
 
-###2. Types of Categorical Data
+### 2. Types of Categorical Data
 
 Nominal Data
 
@@ -47,7 +47,7 @@ Although these categories follow an order, the difference between them is not de
 
 ---------------------------------------------------------------------
 
-###3. Importance of Categorical Data Analysis
+### 3. Importance of Categorical Data Analysis
 
 Categorical data analysis helps in:
 
@@ -64,7 +64,7 @@ For example:
 
 ---------------------------------------------------------------------
 
-###4. Common Operations in Categorical Data Analysis
+### 4. Common Operations in Categorical Data Analysis
 
 1. Frequency Count
 
@@ -93,7 +93,7 @@ unique()
 
 --------------------------------------------------
 
-###3. Cross-Tabulation
+### 3. Cross-Tabulation
 
 Cross-tabulation is used to analyze the relationship between two categorical variables.
 
@@ -110,7 +110,7 @@ pd.crosstab()
 
 --------------------------------------------------
 
-###4. Grouping of Data
+### 4. Grouping of Data
 
 Grouping helps summarize data based on categories.
 
@@ -122,7 +122,7 @@ groupby()
 
 ---------------------------------------------------------------------
 
-###5. Role of Python in Categorical Data Analysis
+### 5. Role of Python in Categorical Data Analysis
 
 Python provides powerful libraries for analyzing categorical data.
 
@@ -135,6 +135,6 @@ These libraries help in organizing, analyzing, and visualizing categorical datas
 
 ---------------------------------------------------------------------
 
-#Conclusion
+# Conclusion
 
 Categorical data analysis helps in understanding patterns, relationships, and distributions within qualitative data. Python libraries such as Pandas, Matplotlib, and Seaborn provide efficient tools to analyze and visualize categorical datasets.
