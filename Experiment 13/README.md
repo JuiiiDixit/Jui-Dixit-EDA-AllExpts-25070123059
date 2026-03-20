@@ -70,7 +70,7 @@ Displays the data type of each column in a dataset.
 **Function:** `astype()`
 Used to change one data type into another.
 
-##**Examples:**
+## **Examples:**
 
 * String to integer
 * Float to integer
@@ -83,7 +83,7 @@ Used when numerical values are stored as text.
 **Function:** `pd.to_datetime()`
 Converts values into a proper date format.
 
-###**5. Changing Text Case**
+### **5. Changing Text Case**
 **Functions:**
 
 * `str.lower()`
