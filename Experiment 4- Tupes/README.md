@@ -1,10 +1,10 @@
-Experiment – 4
-Tuples in Python: Creation, Access, and Operations
-Aim
+# Experiment – 4
+# Tuples in Python: Creation, Access, and Operations
+## Aim
 
 To study tuples in Python and perform operations such as indexing, slicing, packing, unpacking, and built-in functions.
 
-Theory
+## Theory
 
 A tuple is an ordered and immutable collection of elements written using parentheses ( ).
 
@@ -42,6 +42,6 @@ count()
 
 index()
 
-Conclusion
+## Conclusion
 
 Tuple creation, indexing, slicing, and immutability were successfully studied and implemented.
